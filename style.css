@@ -1,0 +1,142 @@
+@font-face {
+    font-family: GeosansLight;
+    src: url("fonts/GeosansLight.ttf");
+}
+*{
+	margin: 0;
+	text-align: center;
+	font-family: GeosansLight;
+}
+div{
+	position:absolute;
+}
+body{
+	position: absolute;
+	width: 118em;
+	height: 95em;
+}
+h1{
+	width: 100%;
+	font-size: 5em;
+}
+h3{
+	width: 100%;
+	font-size: 2em;
+}
+ul{
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	width: 33%;
+	height: 33%;
+	display: inline-block;
+}
+ul h3{
+	width: 100%;
+	border: 0.1em solid black;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+a:hover{
+	color: green;
+}
+a img{
+	width: 100%;
+	height: 33%;
+	border: 0.2em solid black;
+	border-radius: 10%;
+}
+#fighter{
+	cursor: none;
+	left: 50em;
+	top: 50em;
+	z-index: 2;
+	position: absolute;
+}
+#missle{
+	z-index: 2;
+	position: absolute;
+	width: 5%;
+	height: 10%;
+}
+#leftBGBar{
+	z-index: 3;
+	background-image: url("images/3ColorBG.jpg");
+	width: 10%;
+	height: 101%;
+}
+#rightBGBar{
+	z-index: 3;
+	background-image: url("images/3ColorBG.jpg");
+	width: 13%;
+	height: 101%;
+	left: 90%;
+}
+#container{
+	width: 80%;
+	height: 100%;
+	left: 9%;
+}
+#container > div{
+	border: 0.5em solid black;
+}
+div > div > div{
+	border-bottom: 0.4em solid black;
+}
+#mainSect{
+	width: 80%;
+	height: 80%;
+	left: 11%;
+	top: 10%;
+	background-color: gray;
+}
+ 
+#firstMainDiv{
+	top: 10%;
+}
+ 
+#secondMainDiv{
+	top: 40%;
+}
+#thirdMainDiv{
+	top: 70%;
+}
+.sideBar{
+	width: 10%;
+	height: 100%;
+	background-color: cornflowerblue;
+	z-index: 3;
+}
+#nameInputArea{
+	height: 25%;
+}
+#colorInputArea{
+	top: 25%;
+	height: 25%;
+}
+#BGInputArea{
+	top: 50%;
+	height: 50%;
+}
+#leftBar div *{
+	margin: 5%;
+	font-size: 1.25em;
+	width: 90%;
+}
+#rightBar{
+	left: 92%;
+}
+.endBar{
+	width: 80%;
+	height: 10%;
+	left: 11%;
+	background-color: cornflowerblue;
+	z-index: 3;
+}
+#bottomBar{
+	top: 90%;
+}
